@@ -1,0 +1,33 @@
+{
+    "name": "pruebaCrosswalk",
+    "version": "1.0.0",
+    "description": "Ejemplo del libro: una aplicación para probar el rendimiento de Crosswalk",
+    "author": "Jose Ignacio Hita Barraza <ignaciohita@gmail.com>",
+    "contributors": [
+        {
+            "name": "Jose Ignacio Hita Barraza",
+            "email": "ignaciohita@gmail.com"
+        }
+    ],
+    "scripts": {
+        "test": "cordova serve",
+        "predeploy": "cordova prepare"
+    },
+    "main": "www/index.html",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ignaciohita/pruebaCrosswalk.git"
+    },
+    "bugs": {
+        "url": "https://github.com/ignaciohita/pruebaCrosswalk/issues"
+    },
+    "keywords": [
+        "cordova",
+        "example",
+        "teaching"
+    ],
+    "dependencies": {},
+    "preferGlobal": true,
+    "private": false,
+    "license": "MIT"
+}
